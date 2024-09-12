@@ -15,6 +15,10 @@ A funny program to make fake error. Bad code, just of personal fun. :)
 
 1. MEMORY_ERROR。
 
+接下来的几行（可选的，不写则使用默认参数），你应输入该报错类型所需的参数，程序会按顺序从配置文件中依次读取，失败的则使用默认参数。
+
+每行表示一个参数，**记得要按顺序**。
+
 #### 1. MEMORY_ERROR
 
 该错误模拟的是“内存不能为 XXX”的弹窗，程序将会弹出：
