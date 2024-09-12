@@ -2,7 +2,9 @@
 #include <stdio.h>
 
 #include "Define/BasicDefine.h"
+#include "BasicFunction/BasicFunction.h"
 #include "MemoryError/MemoryError.h"
+#include "DllMissingError/DllMissingError.h"
 
 int ErrorType = DEFAULT_ERROR;
 SYSTEMTIME MainStartTime;
@@ -16,8 +18,13 @@ int main() {
 	fscanf(ConfigFileReader, "%d", &ErrorType);
 	
 	switch (ErrorType) {
-		case 1: {
+		case MEMORY_ERROR: {
 			MemoryErrorMain(MainStartTime, ConfigFileReader, LogWriter);
+			break;
+		}
+		
+		case DLL_MISSING_ERROR: {
+			DllMissingErrorMain(MainStartTime, ConfigFileReader, LogWriter);
 			break;
 		}
 	}
