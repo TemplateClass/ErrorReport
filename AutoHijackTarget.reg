@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\【输入需被劫持软件的软件 exe 名称】]
+"debugger"="【输入 Run.vbs 的文件地址（最好是绝对目录）】"
