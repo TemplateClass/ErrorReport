@@ -22,6 +22,6 @@ A funny program to make fake error. Bad code, just of personal fun. :)
 > 标题：[ErrorProgram] - 应用程序错误
 > 
 > "[Operate]" 指令引用的 "[Address]" 内存。该内存不能为 "[CannotBe]"。
->
-> 要终止程序，请单击“确定”。
+>  
+> 要终止程序，请单击“确定”。  
 > 要调试程序，请单击“取消”。
