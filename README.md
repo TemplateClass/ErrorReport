@@ -50,7 +50,7 @@ svchost.exe
 
 #### 2. DLL_MISSING_ERROR
 
-该错误模拟的是“DLL 文件确实”的弹窗，程序将会弹出：
+该错误模拟的是“DLL 文件缺失”的弹窗，程序将会弹出：
 
 > 标题：[ErrorProgram] - 系统错误
 > 
