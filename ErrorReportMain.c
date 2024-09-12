@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 #include "Define/BasicDefine.h"
-#include "AutoMemoryError/AutoMemoryError.h"
+#include "MemoryError/MemoryError.h"
 
 int ErrorType = DEFAULT_ERROR;
 SYSTEMTIME MainStartTime;
