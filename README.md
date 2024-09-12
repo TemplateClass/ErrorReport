@@ -1,5 +1,5 @@
 # ErrorReport
-A funny program to make fake error. Bad code, just of personal fun. :)
+A funny program to make fake error. Bad code, bad version manage, just for personal fun. :)
 
 # Only support zh-cn
 
