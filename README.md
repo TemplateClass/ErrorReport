@@ -29,3 +29,20 @@ A funny program to make fake error. Bad code, just of personal fun. :)
 >  
 > 要终止程序，请单击“确定”。  
 > 要调试程序，请单击“取消”。
+
+该功能的 4 个参数默认值如下（按配置文件读取顺序排序）：
+
+- Operate: `0x00000000`
+- Address: `0x00000000`
+- CannotBe: `read`
+- ErrorProgram: `svchost.exe`
+
+配置文件示例：
+
+```plain
+1
+0x00000000
+0x00000000
+read
+svchost.exe
+```
