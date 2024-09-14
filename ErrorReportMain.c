@@ -5,6 +5,7 @@
 #include "BasicFunction/BasicFunction.h"
 #include "MemoryError/MemoryError.h"
 #include "DllMissingError/DllMissingError.h"
+#include "ExeError/ExeError.h"
 
 int ErrorType = DEFAULT_ERROR;
 SYSTEMTIME MainStartTime;
@@ -25,6 +26,11 @@ int main() {
 		
 		case DLL_MISSING_ERROR: {
 			DllMissingErrorMain(MainStartTime, ConfigFileReader, LogWriter);
+			break;
+		}
+		
+		case EXE_ERROR: {
+			ExeErrorMain(MainStartTime, ConfigFileReader, LogWriter);
 			break;
 		}
 	}
